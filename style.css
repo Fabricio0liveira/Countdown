@@ -91,6 +91,7 @@ h2 {
     margin-top: 31px;
     margin-left: 290px;
     border: none;
+    cursor: pointer;
 }
 
 .rocket {
@@ -194,6 +195,7 @@ footer {
     color:#FFFFFF;
     
     border: none;
+    cursor: pointer;
 }
 
 .btn-submit {
@@ -207,4 +209,5 @@ footer {
     color:#FFFFFF;
     
     border: none;
+    cursor: pointer;
 }
