@@ -157,7 +157,6 @@ footer {
 }
 
 .modal-form {
-    /* border: 1px solid black; */
     width: 200px;
     height: 150px;
     padding: 10px;
@@ -169,6 +168,8 @@ footer {
     margin-bottom: 2px;
 }
 
+
+/* Inputs and buttons in Modal */
 .input-name {
     font-size: 14px;
     font-weight: 400;
