@@ -141,10 +141,69 @@ footer {
 
 .modal {
     background: #f0f2f5;
-    padding: 2.4rem;
-    max-width: 500px;
+    padding: 1rem;
+    max-width: 325px;
+    height: 250px;
     width: 90%;
 
     position: relative;
     z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.modal-form {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+
+.modal-signUp {
+    font-size: 22px;
+    color: var(--purple);
+    margin-bottom: 2px;
+}
+
+.input-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    
+}
+
+.input-email {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.btn-cancel {
+    width: 90px;
+    height: 40px;
+    background: var(--purple);
+    border-radius: 10px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    
+    border: none;
+}
+
+.btn-submit {
+    width: 90px;
+    height: 40px;
+    background: var(--purple);
+    border-radius: 10px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    
+    border: none;
 }

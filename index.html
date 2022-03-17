@@ -47,19 +47,25 @@
 
         <div class="modal-overlay">
             <div class="modal">
-                <div class="form">
+                <div class="modal-form">
                     <form action="">
-                        <h3>Inscreva-se</h3>
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name" id="name" placeholder="Nome Completo">
+                        <h3 class="modal-signUp">Inscreva-se</h3>
+                        <label class="input-name" for="name">
+                            Nome:
+                            <br>
+                            <input class="input-name" type="text" name="name" id="name" placeholder="Nome Completo">
+                        </label>
                         <br>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="nome@email.com">
+                        <label class="input-email" for="email">
+                            Email:
+                            <br>
+                            <input class="input-email" type="email" name="email" id="email" placeholder="nome@email.com">
+                        </label>
                     </form>
                 </div>
                 <div class="input-group actions">
-                    <button>Cancelar</button>
-                    <button type="submit">Enviar</button>
+                    <button class="btn-cancel">Cancelar</button>
+                    <button class="btn-submit" type="submit">Enviar</button>
                 </div>
             </div>
         </div>
